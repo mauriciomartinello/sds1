@@ -32,7 +32,7 @@ const Charts = () => {
     //Execute onload page..
     useEffect(() => {
         async function getData(){
-            const recordsResponse = await axios.get(`${BASE_URL}/records`);
+            const recordsResponse = await axios.get(`${BASE_URL}/records?linesPerPage=0`);
             const gamesResponse = await axios.get(`${BASE_URL}/games`);
 
             const barData = buildBarSeries(gamesResponse.data, recordsResponse.data.content);

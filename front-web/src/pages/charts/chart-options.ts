@@ -47,7 +47,7 @@ export const barOptions = {
       horizontal: true,
       endingShape: "rounded",
       startingShape: "rounded",
-      barHeight: "60px",
+      barHeight: "40px",
     },
   },
   dataLabels: {
