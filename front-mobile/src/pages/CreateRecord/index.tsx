@@ -14,7 +14,7 @@ const placeholder = {
     value: null
 }
 
-const BASE_URL = 'http://sds1-martinello.herokuapp.com';
+const BASE_URL = 'https://sds1-martinello.herokuapp.com';
 
 const mapSelectValue = (games: Game[]) =>{
     return games.map(game => ({
