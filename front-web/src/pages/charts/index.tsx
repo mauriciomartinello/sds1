@@ -6,7 +6,7 @@ import Chart from 'react-apexcharts';
 import { barOptions, pieOptions } from './chart-options';
 import { buildBarSeries, getPlatformChartData, getGenderChartData } from './helpers'
 
-const BASE_URL = "http://localhost:8080"
+const BASE_URL = "https://sds1-martinello.herokuapp.com"
 
 type PieChartData = {
     labels: string[];

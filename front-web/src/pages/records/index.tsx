@@ -8,7 +8,7 @@ import Pagination from './pagination';
 import { Link } from 'react-router-dom';
 import Filters from '../../components/Filters';
 
-const BASE_URL = "http://localhost:8080"
+const BASE_URL = "https://sds1-martinello.herokuapp.com"
 
 const Records = () => {
     const [ recordsResponse, setRecordsResponse ] = useState<RecordsResponse>();
