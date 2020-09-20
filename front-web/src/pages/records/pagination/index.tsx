@@ -1,6 +1,5 @@
 import React from 'react';
 import './styles.css';
-import { type } from 'os';
 
 type Props = {
     totalPages?: number;

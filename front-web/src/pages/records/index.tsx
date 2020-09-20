@@ -1,11 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import { ReactComponent as GamerImage } from '../../assets/gamer.svg';
 import './styles.css';
 import { RecordsResponse } from './types';
 import { formatDate } from './helpers';
 import Pagination from './pagination';
-import { Link } from 'react-router-dom';
 import Filters from '../../components/Filters';
 
 const BASE_URL = "https://sds1-martinello.herokuapp.com"
